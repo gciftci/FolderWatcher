@@ -1,5 +1,5 @@
 # Welcome to the amazing FolderWatcher!
-This repository contains my analysis and comparison of various techniques to iterate through a 2D NumPy array in Python. My goal is to determine the most performant method for my specific use case (AntSim), which involves filtering and modifying the original array based on certain conditions.
+
 ![Alt text](screen.gif)
 ## Content
 - [Welcome to the amazing FolderWatcher!](#welcome-to-the-amazing-folderwatcher)
