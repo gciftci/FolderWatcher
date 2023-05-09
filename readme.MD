@@ -7,8 +7,15 @@
 
 </div>
 
+## Sorting (new)
+![Alt text](sorting.gif)
+
+## Moving
 ![Alt text](screen.gif)
+
 ## Content
+- [Sorting (new)](#sorting-new)
+- [Moving](#moving)
 - [Content](#content)
 - [What is FolderWatcher?](#what-is-folderwatcher)
 - [How does it work?](#how-does-it-work)

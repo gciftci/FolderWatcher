@@ -1,0 +1,100 @@
+
+[09:02:28] Outputting to folder: [yellow underline]C:\output[/yellow underline]
+[09:02:28] Processing existing files: [yellow underline]true                 [/yellow underline]
+[09:02:28] Press [yellow underline]Ctrl+C[/yellow underline] to stop
+
+
+[09:04:05] Outputting to folder: [yellow underline]C:\output[/yellow underline]
+[09:04:05] Processing existing files: [yellow underline]true                 [/yellow underline]
+[09:04:05] Press [yellow underline]Ctrl+C[/yellow underline] to stop
+[09:04:10] [green]Processing file: Contract - Copy - Copy.doc[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[doc]-09_05_2023-09_04_10-Contract - Copy - Copy.doc
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[doc]-09_05_2023-09_04_10-Contract - Copy - Copy.doc
+[09:04:10] [bold green]File sorted: [doc]-09_05_2023-09_04_10-Contract - Copy - Copy.doc -> C:\output\Documents/Word                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Documents/Word\[doc]-09_05_2023-09_04_10-Contract - Copy - Copy.doc
+[09:04:10] [green]Processing file: Contract - Copy.doc[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[doc]-09_05_2023-09_04_10-Contract - Copy.doc
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[doc]-09_05_2023-09_04_10-Contract - Copy.doc
+[09:04:10] [bold green]File sorted: [doc]-09_05_2023-09_04_10-Contract - Copy.doc -> C:\output\Documents/Word                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Documents/Word\[doc]-09_05_2023-09_04_10-Contract - Copy.doc
+[09:04:10] [green]Processing file: Contract.doc[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[doc]-09_05_2023-09_04_10-Contract.doc
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[doc]-09_05_2023-09_04_10-Contract.doc
+[09:04:10] [bold green]File sorted: [doc]-09_05_2023-09_04_10-Contract.doc -> C:\output\Documents/Word                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Documents/Word\[doc]-09_05_2023-09_04_10-Contract.doc
+[09:04:10] [green]Processing file: DxDiag.txt[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[txt]-09_05_2023-09_04_10-DxDiag.txt
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[txt]-09_05_2023-09_04_10-DxDiag.txt
+[09:04:10] [bold green]File sorted: [txt]-09_05_2023-09_04_10-DxDiag.txt -> C:\output\Documents/Notes                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Documents/Notes\[txt]-09_05_2023-09_04_10-DxDiag.txt
+[09:04:10] [green]Processing file: hamlet - Copy - Copy - Copy.gif[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[gif]-09_05_2023-09_04_10-hamlet - Copy - Copy - Copy.gif
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[gif]-09_05_2023-09_04_10-hamlet - Copy - Copy - Copy.gif
+[09:04:10] [bold green]File sorted: [gif]-09_05_2023-09_04_10-hamlet - Copy - Copy - Copy.gif -> C:\output\Images/GIFs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/GIFs\[gif]-09_05_2023-09_04_10-hamlet - Copy - Copy - Copy.gif
+[09:04:10] [green]Processing file: hamlet - Copy - Copy.gif[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[gif]-09_05_2023-09_04_10-hamlet - Copy - Copy.gif
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[gif]-09_05_2023-09_04_10-hamlet - Copy - Copy.gif
+[09:04:10] [bold green]File sorted: [gif]-09_05_2023-09_04_10-hamlet - Copy - Copy.gif -> C:\output\Images/GIFs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/GIFs\[gif]-09_05_2023-09_04_10-hamlet - Copy - Copy.gif
+[09:04:10] [green]Processing file: hamlet - Copy.gif[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[gif]-09_05_2023-09_04_10-hamlet - Copy.gif
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[gif]-09_05_2023-09_04_10-hamlet - Copy.gif
+[09:04:10] [bold green]File sorted: [gif]-09_05_2023-09_04_10-hamlet - Copy.gif -> C:\output\Images/GIFs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/GIFs\[gif]-09_05_2023-09_04_10-hamlet - Copy.gif
+[09:04:10] [green]Processing file: hamlet.gif[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[gif]-09_05_2023-09_04_10-hamlet.gif
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[gif]-09_05_2023-09_04_10-hamlet.gif
+[09:04:10] [bold green]File sorted: [gif]-09_05_2023-09_04_10-hamlet.gif -> C:\output\Images/GIFs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/GIFs\[gif]-09_05_2023-09_04_10-hamlet.gif
+[09:04:10] [green]Processing file: low_qual - Copy.jpg[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[jpg]-09_05_2023-09_04_10-low_qual - Copy.jpg
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[jpg]-09_05_2023-09_04_10-low_qual - Copy.jpg
+[09:04:10] [bold green]File sorted: [jpg]-09_05_2023-09_04_10-low_qual - Copy.jpg -> C:\output\Images/JPGs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/JPGs\[jpg]-09_05_2023-09_04_10-low_qual - Copy.jpg
+[09:04:10] [green]Processing file: low_qual.jpg[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[jpg]-09_05_2023-09_04_10-low_qual.jpg
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[jpg]-09_05_2023-09_04_10-low_qual.jpg
+[09:04:10] [bold green]File sorted: [jpg]-09_05_2023-09_04_10-low_qual.jpg -> C:\output\Images/JPGs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/JPGs\[jpg]-09_05_2023-09_04_10-low_qual.jpg
+[09:04:10] [green]Processing file: MSInfo.txt[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[txt]-09_05_2023-09_04_10-MSInfo.txt
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[txt]-09_05_2023-09_04_10-MSInfo.txt
+[09:04:10] [bold green]File sorted: [txt]-09_05_2023-09_04_10-MSInfo.txt -> C:\output\Documents/Notes                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Documents/Notes\[txt]-09_05_2023-09_04_10-MSInfo.txt
+[09:04:10] [green]Processing file: screen.png[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[png]-09_05_2023-09_04_10-screen.png
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[png]-09_05_2023-09_04_10-screen.png
+[09:04:10] [bold green]File sorted: [png]-09_05_2023-09_04_10-screen.png -> C:\output\Images/PNGs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/PNGs\[png]-09_05_2023-09_04_10-screen.png
+[09:04:10] [green]Processing file: screen2.png[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[png]-09_05_2023-09_04_10-screen2.png
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[png]-09_05_2023-09_04_10-screen2.png
+[09:04:10] [bold green]File sorted: [png]-09_05_2023-09_04_10-screen2.png -> C:\output\Images/PNGs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/PNGs\[png]-09_05_2023-09_04_10-screen2.png
+[09:04:10] [green]Processing file: screen3 - Copy.png[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[png]-09_05_2023-09_04_10-screen3 - Copy.png
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[png]-09_05_2023-09_04_10-screen3 - Copy.png
+[09:04:10] [bold green]File sorted: [png]-09_05_2023-09_04_10-screen3 - Copy.png -> C:\output\Images/PNGs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/PNGs\[png]-09_05_2023-09_04_10-screen3 - Copy.png
+[09:04:10] [green]Processing file: screen3.png[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[png]-09_05_2023-09_04_10-screen3.png
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[png]-09_05_2023-09_04_10-screen3.png
+[09:04:10] [bold green]File sorted: [png]-09_05_2023-09_04_10-screen3.png -> C:\output\Images/PNGs                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Images/PNGs\[png]-09_05_2023-09_04_10-screen3.png
+[09:04:10] [green]Processing file: test_file - Copy - Copy.pdf[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[pdf]-09_05_2023-09_04_10-test_file - Copy - Copy.pdf
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[pdf]-09_05_2023-09_04_10-test_file - Copy - Copy.pdf
+[09:04:10] [bold green]File sorted: [pdf]-09_05_2023-09_04_10-test_file - Copy - Copy.pdf -> C:\output\Documents/pdf                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Documents/pdf\[pdf]-09_05_2023-09_04_10-test_file - Copy - Copy.pdf
+[09:04:10] [green]Processing file: test_file - Copy.pdf[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[pdf]-09_05_2023-09_04_10-test_file - Copy.pdf
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[pdf]-09_05_2023-09_04_10-test_file - Copy.pdf
+[09:04:10] [bold green]File sorted: [pdf]-09_05_2023-09_04_10-test_file - Copy.pdf -> C:\output\Documents/pdf                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Documents/pdf\[pdf]-09_05_2023-09_04_10-test_file - Copy.pdf
+[09:04:10] [green]Processing file: test_file.pdf[/green]
+[09:04:10] 		[bold green]+[/bold green] Rename                complete: C:\output\[pdf]-09_05_2023-09_04_10-test_file.pdf
+[09:04:10] 		[bold green]+[/bold green] Move                complete: C:\output\[pdf]-09_05_2023-09_04_10-test_file.pdf
+[09:04:10] [bold green]File sorted: [pdf]-09_05_2023-09_04_10-test_file.pdf -> C:\output\Documents/pdf                    [/bold green]
+[09:04:10] 		[bold green]+[/bold green] SortFiles                complete: C:\output\Documents/pdf\[pdf]-09_05_2023-09_04_10-test_file.pdf
+
