@@ -28,7 +28,7 @@ class SortFiles(Process):
 
         for ext, folder in _C._config.items('sort_files'):
             if extension == ext:
-                destination_folder = os.path.join(_C.get('output', 'path'), folder)
+                destination_folder = os.path.join(_C.get('watcher', 'outputpath'), folder)
 
                 if not os.path.exists(destination_folder):
                     os.makedirs(destination_folder)

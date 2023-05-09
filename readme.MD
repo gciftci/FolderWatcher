@@ -1,7 +1,7 @@
 <div align="center"><h1> Welcome to the amazing FolderWatcher!</h1></div>
 
 <div align="center">
-  
+
 [![Linkedin Badge](https://img.shields.io/badge/-gciftci-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://ch.linkedin.com/in/garbis-ciftci/)](https://https://ch.linkedin.com/in/garbis-ciftci/)[![Instagram Badge](https://img.shields.io/badge/-garbis.ci-purple?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/garbis.ci/)](https://www.instagram.com/garbis.ci/)[![Gmail Badge](https://img.shields.io/badge/-garbis.ciftci@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:garbis.ciftci@gmail.com)](mailto:garbis.ciftci@gmail.com)
 ![Python](https://img.shields.io/badge/-Python-black?style=flat-square&=Python)![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
 
@@ -9,21 +9,20 @@
 
 ![Alt text](screen.gif)
 ## Content
-- [Welcome to the amazing FolderWatcher!](#welcome-to-the-amazing-folderwatcher)
-  - [Content](#content)
-  - [What is FolderWatcher?](#what-is-folderwatcher)
-  - [How does it work?](#how-does-it-work)
-  - [How to use FolderWatcher](#how-to-use-folderwatcher)
-    - [1. Clone this repository onto your local machine.](#1-clone-this-repository-onto-your-local-machine)
-    - [3. Create a virtual environment and activate it.](#3-create-a-virtual-environment-and-activate-it)
-    - [4. Install the required packages](#4-install-the-required-packages)
-    - [5. Customize the constants in main.py to match your desired configuration.](#5-customize-the-constants-in-mainpy-to-match-your-desired-configuration)
-    - [6. Run to start monitoring the folder for new files.](#6-run-to-start-monitoring-the-folder-for-new-files)
-  - [Adding new processes](#adding-new-processes)
-  - [Examples](#examples)
-  - [Contribution](#contribution)
-  - [License](#license)
-  - [Contact](#contact)
+- [Content](#content)
+- [What is FolderWatcher?](#what-is-folderwatcher)
+- [How does it work?](#how-does-it-work)
+- [How to use FolderWatcher](#how-to-use-folderwatcher)
+  - [1. Clone this repository onto your local machine.](#1-clone-this-repository-onto-your-local-machine)
+  - [3. Create a virtual environment and activate it.](#3-create-a-virtual-environment-and-activate-it)
+  - [4. Install the required packages](#4-install-the-required-packages)
+  - [5. Customize the constants in config.ini to match your desired configuration.](#5-customize-the-constants-in-configini-to-match-your-desired-configuration)
+  - [6. Run to start monitoring the folder for new files.](#6-run-to-start-monitoring-the-folder-for-new-files)
+- [Adding new processes](#adding-new-processes)
+- [Examples](#examples)
+- [Contribution](#contribution)
+- [License](#license)
+- [Contact](#contact)
 
 ## What is FolderWatcher?
 FolderWatcher is a Python-based application that monitors a folder for new files and processes them using a list of processes. The goal of FolderWatcher is to automate your workflow and save you time by performing various file operations automatically.
@@ -45,7 +44,7 @@ $ python -m venv .venv
 $ pip install -r requirements.txt
 ```
 
-### 5. Customize the constants in main.py to match your desired configuration.
+### 5. Customize the constants in config.ini to match your desired configuration.
 
 ### 6. Run to start monitoring the folder for new files.
 ```bash
@@ -83,6 +82,7 @@ Here are some examples of what FolderWatcher can do:
 
 * Rename a file using the current date and time.
 * Move a file to a subfolder called "processed".
+* Sort files depending on extension
 * Perform OCR on a file. (not yet implemented)
 
 ## Contribution
