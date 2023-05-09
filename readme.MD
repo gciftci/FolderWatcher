@@ -1,4 +1,11 @@
-# Welcome to the amazing FolderWatcher!
+<div align="center"><h1> Welcome to the amazing FolderWatcher!</h1></div>
+
+<div align="center">
+  
+[![Linkedin Badge](https://img.shields.io/badge/-gciftci-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://ch.linkedin.com/in/garbis-ciftci/)](https://https://ch.linkedin.com/in/garbis-ciftci/)[![Instagram Badge](https://img.shields.io/badge/-garbis.ci-purple?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/garbis.ci/)](https://www.instagram.com/garbis.ci/)[![Gmail Badge](https://img.shields.io/badge/-garbis.ciftci@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:garbis.ciftci@gmail.com)](mailto:garbis.ciftci@gmail.com)
+![Python](https://img.shields.io/badge/-Python-black?style=flat-square&=Python)![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
+
+</div>
 
 ![Alt text](screen.gif)
 ## Content
@@ -88,10 +95,3 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ## Contact
 Feel free to contact me!
-
-<div align="center">
-
-[![Linkedin Badge](https://img.shields.io/badge/-gciftci-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://ch.linkedin.com/in/garbis-ciftci/)](https://https://ch.linkedin.com/in/garbis-ciftci/)[![Instagram Badge](https://img.shields.io/badge/-garbis.ci-purple?style=flat-square&logo=instagram&logoColor=white&link=https://www.instagram.com/garbis.ci/)](https://www.instagram.com/garbis.ci/)[![Gmail Badge](https://img.shields.io/badge/-garbis.ciftci@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:garbis.ciftci@gmail.com)](mailto:garbis.ciftci@gmail.com)
-![Python](https://img.shields.io/badge/-Python-black?style=flat-square&=Python)![GitHub](https://img.shields.io/badge/-GitHub-181717?style=flat-square&logo=github)
-
-</div>
