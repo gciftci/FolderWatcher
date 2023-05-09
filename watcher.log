@@ -1,0 +1,93 @@
+
+[08:44:53] Outputting to folder: [yellow underline]C:\\output[/yellow underline]
+[08:44:53] Processing existing files: [yellow underline]true                 [/yellow underline]
+[08:44:53] Press [yellow underline]Ctrl+C[/yellow underline] to stop
+[08:45:08] [green]Processing file: New Text Document.txt[/green]
+[08:45:08] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_45_08-New Text Document.txt
+[08:45:08] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_45_08-New Text Document.txt
+
+
+[08:48:25] Outputting to folder: [yellow underline]C:\\output[/yellow underline]
+[08:48:25] Processing existing files: [yellow underline]true                 [/yellow underline]
+[08:48:25] Press [yellow underline]Ctrl+C[/yellow underline] to stop
+[08:48:35] [green]Processing file: New Text Document.txt[/green]
+[08:48:35] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_48_35-New Text Document.txt
+[08:48:35] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_48_35-New Text Document.txt
+
+
+[08:49:18] Outputting to folder: [yellow underline]C:\\output[/yellow underline]
+[08:49:18] Processing existing files: [yellow underline]true                 [/yellow underline]
+[08:49:18] Press [yellow underline]Ctrl+C[/yellow underline] to stop
+[08:49:28] [green]Processing file: [txt]-09_05_2023-07_54_19-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-07_54_19-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-07_54_19-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-07_54_19-New Text Document.txt
+[08:49:28] [green]Processing file: [txt]-09_05_2023-08_01_20-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_01_20-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_01_20-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_01_20-New Text Document.txt
+[08:49:28] [green]Processing file: [txt]-09_05_2023-08_03_42-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_03_42-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_03_42-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_03_42-New Text Document.txt
+[08:49:28] [green]Processing file: [txt]-09_05_2023-08_12_14-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_12_14-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_12_14-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_12_14-New Text Document.txt
+[08:49:28] [green]Processing file: [txt]-09_05_2023-08_25_30-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_25_30-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_25_30-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_25_30-New Text Document.txt
+[08:49:28] [green]Processing file: [txt]-09_05_2023-08_26_01-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_26_01-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_26_01-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_26_01-New Text Document.txt
+[08:49:28] [green]Processing file: [txt]-09_05_2023-08_33_52-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_33_52-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_33_52-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_33_52-New Text Document.txt
+[08:49:28] [green]Processing file: [txt]-09_05_2023-08_45_08-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_45_08-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_45_08-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_45_08-New Text Document.txt
+[08:49:28] [green]Processing file: [txt]-09_05_2023-08_48_35-New Text Document.txt[/green]
+[08:49:28] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_48_35-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_48_35-New Text Document.txt
+[08:49:28] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_48_35-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-07_54_19-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-07_54_19-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-07_54_19-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-07_54_19-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_01_20-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_01_20-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_01_20-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_01_20-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_03_42-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_03_42-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_03_42-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_03_42-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_12_14-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_12_14-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_12_14-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_12_14-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_25_30-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_25_30-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_25_30-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_25_30-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_26_01-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_26_01-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_26_01-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_26_01-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_33_52-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_33_52-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_33_52-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_33_52-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_45_08-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_45_08-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_45_08-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_45_08-New Text Document.txt
+[08:50:13] [green]Processing file: [txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_48_35-New Text Document.txt[/green]
+[08:50:13] 		[bold green]+[/bold green] Rename                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_48_35-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] Move                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_48_35-New Text Document.txt
+[08:50:13] 		[bold green]+[/bold green] SortFiles                complete: C:\\output\[txt]-09_05_2023-08_50_13-[txt]-09_05_2023-08_49_28-[txt]-09_05_2023-08_48_35-New Text Document.txt
+

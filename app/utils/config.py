@@ -2,7 +2,7 @@
 # Third party imports
 import configparser
 import os
-from typing import Any, Optional
+from typing import Any, Optional, List
 
 # Local imports
 
@@ -46,6 +46,22 @@ class Config:
             return self._config.get(section, key)
         except (configparser.NoSectionError, configparser.NoOptionError):
             return default
+
+    def get_section(self, section: str) -> Optional[List[str]]:
+        """
+        Returns a list of all keys in the specified section.
+
+        Args:
+            section (str): The section name in the configuration file.
+
+        Returns:
+            Optional[List[str]]: A list of all keys in the specified section, or None if the section doesn't exist.
+        """
+        return (
+            self._config.options(section)
+            if self._config.has_section(section)
+            else None
+        )
 
     def set(self, section: str, key: str, value: Any) -> None:
         """

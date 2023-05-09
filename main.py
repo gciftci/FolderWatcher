@@ -9,7 +9,7 @@ from app.core.folderwatcher import FolderWatcher
 from app.core.processmanager import ProcessManager
 from app.processes.main.move import Move
 from app.processes.main.rename import Rename
-from app.processes.custom.ocr import OCR
+from app.processes.custom.sort_files import SortFiles
 
 # Clear the console screen
 # os.system('cls' if os.name == 'nt' else 'clear')
@@ -19,7 +19,7 @@ if __name__ == "__main__":
     process_manager = ProcessManager()
     process_manager.add_process(Rename())
     process_manager.add_process(Move())
-    process_manager.add_process(OCR())
+    process_manager.add_process(SortFiles())
 
     # Create a FolderWatcher object and start monitoring the folder
     watcher = FolderWatcher(
