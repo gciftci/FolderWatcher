@@ -1,44 +1,88 @@
 ''' app/utils/logger.py '''
 # Third party imports
 import os
-import logging
-from rich.logging import RichHandler
+from datetime import datetime
+from typing import Any, Optional
 from rich.console import Console
+from rich.theme import Theme
 
-# Logfilename/path
-LOG_FILE_NAME = "watcher.log"
-LOGFILE_PATH = os.path.join(os.getcwd(), LOG_FILE_NAME) # or: LOGFILE_PATH = "C:\\logs\\myapp.log"
+# Local imports
+from app.utils.config import _C
 
-# Initialize the console
-console = Console(record=True)
 
-# Initialize the logger
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+class RichLogger:
+    """
+    A Singleton-Class that logs every step and writes to a file.
+    """
+    _instance: Optional['RichLogger'] = None
 
-# Create a file handler
-handler = RichHandler(
-    console=console,
-    rich_tracebacks=True,
-    show_time=True,
-    markup=True,
-)
-handler.setLevel(logging.INFO)
-#formatter = logging.Formatter("%(message)s")
-formatter = logging.Formatter(
-        '%(asctime)s [%(threadName)s.{}] '
-        '[%(name)s] [%(levelname)s]  '
-        '%(message)s')
+    def __new__(cls) -> 'RichLogger':
+        """
+        Ensures that only one instance of the RichLogger class is created.
+        """
+        if cls._instance is None:
+            cls._instance = super().__new__(cls)
+            cls._instance._initialize()
+        return cls._instance
 
-handler.setFormatter(formatter)
+    def _initialize(self) -> None:
+        """
+        Initializes the RichLogger object by creating a log file and a Rich Console instance with a custom theme.
+        """
+        log_file_path = os.path.join(os.path.join(os.getcwd(), _C.get("debug", "log_file_name")))
+        self._log_file = open(log_file_path, "a", encoding="UTF8")
 
-# Add the file handler to the logger
-logger.addHandler(handler)
+        theme = Theme({
+            "info": "blue",
+            "warning": "yellow",
+            "error": "bold red",
+            "success": "green",
+        })
 
-# Create a file handler for the log file
-log_file_handler = logging.FileHandler(LOGFILE_PATH)
-log_file_handler.setLevel(logging.INFO)
-log_file_handler.setFormatter(formatter)
+        self._console = Console(theme=theme)
 
-# Add the file handler to the logger
-logger.addHandler(log_file_handler)
+    def _timestamp(self) -> str:
+        """
+        Generates a formatted timestamp string in the format [HH:MM:SS].
+
+        Returns:
+            str: The formatted timestamp string.
+        """
+        return datetime.now().strftime("%H:%M:%S")
+
+    def print(self, *args: Any, **kwargs: Any) -> None:
+        """
+        Prints the given arguments to the console and writes them to the log file with a timestamp.
+
+        Args:
+            *args: Arguments to be printed.
+            **kwargs: Keyword arguments to be passed to the Rich Console print method.
+        """
+        timestamp = self._timestamp()
+        self._console.print(f"[{timestamp}] ", *args, **kwargs)
+        self._log_file.write(f"[{timestamp}] " + " ".join(str(arg) for arg in args) + "\n")
+
+    def log(self, *args: Any, **kwargs: Any) -> None:
+        """
+        Logs the given arguments to the console and writes them to the log file with a timestamp.
+
+        Args:
+            *args: Arguments to be logged.
+            **kwargs: Keyword arguments to be passed to the Rich Console log method.
+        """
+        timestamp = self._timestamp()
+        self._console.log(f"[{timestamp}] ", *args, **kwargs)
+        self._log_file.write(f"[{timestamp}] " + " ".join(str(arg) for arg in args) + "\n")
+
+    def rule(self, *args: Any, **kwargs: Any) -> None:
+        """
+        Creates a horizontal rule in the console and writes the rule text to the log file.
+
+        Args:
+            *args: Arguments to be used for the rule.
+            **kwargs: Keyword arguments to be passed to the Rich Console rule method.
+        """
+        self._console.rule( *args, **kwargs)
+        self._log_file.write(" ".join(str(arg) for arg in args) + "\n")
+
+_L = RichLogger()

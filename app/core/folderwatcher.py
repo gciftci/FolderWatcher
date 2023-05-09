@@ -6,7 +6,8 @@ import fnmatch
 from typing import List, Optional
 
 # Local imports
-from app.utils.logger import logger
+from app.utils.config import _C
+from app.utils.logger import _L
 
 
 class FolderWatcher:
@@ -40,28 +41,28 @@ class FolderWatcher:
         """
         Start monitoring the folder for new files and processing them.
         """
-        logger.info("[bold green]Watching folder..")
-        logger.info("Outputting to folder: [yellow underline]%s[/yellow underline]",
-                    self.outputpath)
-        logger.info("Processing existing files: [yellow underline]%s[/yellow underline]",
-                    self.process_existing_files)
-        logger.info("Press [yellow underline]Ctrl+C[/yellow underline] to stop")
+
+        _L.rule(title="[bold green]Stopping folder watcher..", style="bold green", align="left")
+        _L.print(f"Outputting to folder: [yellow underline]{self.outputpath}[/yellow underline]")
+        _L.print(f"Processing existing files: [yellow underline]{self.process_existing_files}\
+                 [/yellow underline]")
+        _L.print("Press [yellow underline]Ctrl+C[/yellow underline] to stop")
         printed_ignore_files = set()
 
         while True:
             for filename in os.listdir(self.watchpath):
                 if any(fnmatch.fnmatch(filename, pattern) for pattern in self.ignore_list):
                     if filename not in printed_ignore_files:
-                        logger.info("[yellow]Ignored file: %s[/yellow]", filename)
+                        _L.print(f"[yellow]Ignored file: {filename}[/yellow]")
                         printed_ignore_files.add(filename)
                     continue
 
                 filepath = os.path.join(self.watchpath, filename)
                 if os.path.isfile(filepath):
-                    logger.info("[green]Processing file: %s[/green]", filename)
+                    _L.print(f"[green]Processing file: {filename}[/green]")
                     self.process_file(filepath)
 
-            time.sleep(3)
+            time.sleep(int(_C.get("watcher", "refresh_rate")))
 
     def stop(self) -> None:
         """
@@ -80,8 +81,8 @@ class FolderWatcher:
 
         for process in self.process_list:
             updated_filepath = process.execute(updated_filepath)
-            logger.info("\t\t[bold green]+[/bold green] %s complete: %s",
-                        process.__class__.__name__, updated_filepath)
+            _L.print(f"\t\t[bold green]+[/bold green] {process.__class__.__name__}\
+                complete: {updated_filepath}")
 
 class Process:
     """

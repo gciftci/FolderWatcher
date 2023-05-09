@@ -35,23 +35,23 @@ import shutil
 from datetime import datetime
 
 # Local imports
-from app.utils.logger import logger
+from app.utils.config import _C
+from app.utils.logger import _L
 from app.core.folderwatcher import Process
 
-NEW_FILENAME_FORMAT = "[{ext}]-{day}_{month}_{year}-{hour}-{minute}-{second}_{filename}"
 
 class Rename(Process):
     """
     Process for renaming a file using the current date and time.
     """
-    def __init__(self, outputpath: str) -> None:
+    def __init__(self) -> None:
         """
         Constructor method for Rename.
 
         Args:
             outputpath (str): The path to output processed files to.
         """
-        self.outputpath = outputpath
+        self.outputpath = _C.get("watcher", "outputpath")
 
     def execute(self, filepath: str) -> str:
         """
@@ -66,19 +66,19 @@ class Rename(Process):
         try:
             return self.get_filename(filepath)
         except FileNotFoundError:
-            logger.info("[bold red]Error:[/bold red] File not found: %s", filepath)
+            _L.print(f"[bold red]Error:[/bold red] File not found: {filepath}")
             return filepath
         except PermissionError:
-            logger.info("[bold red]Error:[/bold red] Permission denied for: %s", filepath)
+            _L.print(f"[bold red]Error:[/bold red] Permission denied for: {filepath}")
             return filepath
         except IsADirectoryError:
-            logger.info("[bold red]Error:[/bold red] Path is a directory, not a file: %s", filepath)
+            _L.print(f"[bold red]Error:[/bold red] Path is a directory, not a file: {filepath}")
             return filepath
         except OSError as err:
-            logger.info("[bold red]Error:[/bold red] OS error occurred: %s", str(err))
+            _L.print(f"[bold red]Error:[/bold red] OS error occurred: {str(err)}")
             return filepath
         except ValueError:
-            logger.info("[bold red]Error:[/bold red] Invalid path: %s", filepath)
+            _L.print(f"[bold red]Error:[/bold red] Invalid path: {filepath}")
             return filepath
 
     def get_filename(self, filepath: str) -> str:
@@ -101,7 +101,8 @@ class Rename(Process):
             "filename": os.path.basename(os.path.splitext(filepath)[0]),
             "ext": os.path.splitext(filepath)[1][1:],
         }
-        new_filename = NEW_FILENAME_FORMAT.format(**timestamp_data) + os.path.splitext(filepath)[1]
+        new_filename =  _C.get("rename", "new_filename_format").format(**timestamp_data)\
+            + os.path.splitext(filepath)[1]
         new_filepath = os.path.join(self.outputpath, new_filename)
 
         shutil.move(filepath, new_filepath)

@@ -14,6 +14,7 @@ import shutil
 
 # Local imports
 # from app.utils.logger import logger
+from app.utils.config import _C
 from app.core.folderwatcher import Process
 
 
@@ -21,14 +22,14 @@ class Move(Process):
     """
     Process for moving a file to a subfolder called "processed".
     """
-    def __init__(self, outputpath: str) -> None:
+    def __init__(self) -> None:
         """
         Initialize the Move process.
 
         Args:
             outputpath (str): The path of the folder to move processed files to.
         """
-        self.outputpath = outputpath
+        self.outputpath = _C.get("watcher", "outputpath")
 
     def execute(self, filepath: str) -> str:
         """
